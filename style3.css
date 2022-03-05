@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: linear-gradient(to bottom , #CC95C0,#DBD4B4,#7AA1D2);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.paino{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    /* border : 3px solid black; */
+    height: 50vh;
+    
+}
+.pures{
+    width: 10vw;
+    height: 50vh;
+    border : 1px solid black;
+    background: white;
+    text-align: center;
+    position: relative;
+    cursor: grabbing;
+
+}
+.pures:active{
+    background: wheat;
+}
+.pures h1{
+    position: relative;
+    top: 40vh;
+
+}
+.sharps{
+    width: 7vw;
+    height: 35vh;
+    background: black;
+    
+    color: white;
+    text-align: center;
+    cursor: grabbing;
+}
+.sharps:active{
+    background: gray;
+}
+#CS{
+    position: absolute;
+    left: 206px;
+}
+#DS{
+    position: absolute;
+    left: 334px;
+}
+#FS{
+    position: absolute;
+    left: 594px;
+}
+#GS{
+    position: absolute;
+    left: 725px;
+}
+#AS{
+    position: absolute;
+    left: 854px;
+}
+#po{
+    display: inline;
+    position: absolute;
+    top: 80vh;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+.fas{
+    position: absolute;
+    font-size: 34px;
+    top: -17px;
+    right: 113px;
+}
